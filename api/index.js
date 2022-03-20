@@ -20,7 +20,6 @@ const users = [
 ];
 
 let refreshTokens = [];
-
 //by putting a expiration timer on the access token this cause the user
 //authentication issue so for that we create an refresher token after login
 //which calls and creates a new function
